@@ -18,7 +18,7 @@ valor_desconto = total_venda * percentual_desconto / 100
 valor_final = total_venda - valor_desconto
 valor_comissao = total_venda * percentual_comissao / 100
 custo_total = custo_unitario * quantidade
-lucro_bruto = total_venda - custo_total 
+lucro_bruto = valor_final - custo_total
 
 #saida
 print("produto:", produto)
@@ -50,3 +50,4 @@ print("custo total:", custo_total)
 print("lucro bruto:", lucro_bruto)
 
 
+input("pressione enter para sair")
